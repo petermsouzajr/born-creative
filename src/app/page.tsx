@@ -55,7 +55,7 @@ export default function Home() {
               </a>
             </div>
             <Button className="bg-blue-600 hover:bg-blue-700">
-              Apply for Reimbursement
+              Get Funding
             </Button>
           </div>
         </div>
@@ -73,23 +73,24 @@ export default function Home() {
               </span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 mb-8 leading-relaxed">
-              Born Creative reimburses families and schools for musical
-              instrument purchases, creating opportunities for students while
-              stimulating the music economy.
+              We help people and schools get musical instruments through our
+              'Pre-imbursement' and Reimbursement programs. Whether you need
+              help with a recent purchase or can't afford the upfront cost, we
+              are here for you.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button
                 size="lg"
                 className="bg-blue-600 hover:bg-blue-700 text-lg px-8 py-6 font-bold"
               >
-                Apply for Reimbursement
+                Get Upfront Funding
               </Button>
               <Button
                 size="lg"
                 variant="outline"
-                className="text-lg px-8 py-6 font-bold text-black outline-black "
+                className="text-lg px-8 py-6 font-bold border-blue-600 text-blue-600 hover:bg-blue-50"
               >
-                Learn More
+                Apply for Reimbursement
               </Button>
             </div>
           </div>
@@ -104,9 +105,9 @@ export default function Home() {
               The Power of Music Education
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Our reimbursement program creates a ripple effect of positive
-              impact across communities, benefiting students, families, schools,
-              and the broader music economy.
+              Our Direct Funding and Reimbursement programs create a ripple
+              effect of positive impact across communities, benefiting students,
+              families, schools, and the broader music economy.
             </p>
           </div>
 
@@ -233,52 +234,131 @@ export default function Home() {
         <div className="container mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              How It Works
+              Two Paths to Get Your Instrument
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Getting reimbursed for your musical instrument purchase is simple
-              and straightforward.
+              We offer two ways to support your musical journey. Choose the one
+              that's right for you.
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="text-center">
-              <div className="mx-auto w-20 h-20 bg-blue-600 rounded-full flex items-center justify-center mb-6">
-                <span className="text-2xl font-bold text-white">1</span>
+          <div className="grid lg:grid-cols-2 gap-12">
+            {/* Direct Funding Program */}
+            <div className="bg-white rounded-2xl p-8 shadow-lg">
+              <div className="text-center mb-8">
+                <h3 className="text-3xl font-bold text-gray-900 mb-4">
+                  Option 1: The Pre-imbursement Program
+                </h3>
+                <p className="text-lg text-blue-600 font-bold">
+                  (For those who need help with the upfront cost)
+                </p>
               </div>
-              <h3 className="text-2xl font-semibold text-gray-900 mb-4">
-                Purchase Your Instrument
-              </h3>
-              <p className="text-gray-600 leading-relaxed">
-                Buy a musical instrument for yourself or your school. Keep your
-                receipt and any relevant documentation.
-              </p>
+
+              <div className="space-y-6">
+                <div className="flex items-start space-x-4">
+                  <div className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center flex-shrink-0">
+                    <span className="text-xl font-bold text-white">1</span>
+                  </div>
+                  <div>
+                    <h4 className="text-xl font-semibold text-gray-900 mb-2">
+                      Apply With a Quote
+                    </h4>
+                    <p className="text-gray-600 leading-relaxed">
+                      Choose an instrument from one of our approved stores and
+                      submit an application with their official quote.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex items-start space-x-4">
+                  <div className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center flex-shrink-0">
+                    <span className="text-xl font-bold text-white">2</span>
+                  </div>
+                  <div>
+                    <h4 className="text-xl font-semibold text-gray-900 mb-2">
+                      We Pay the Store
+                    </h4>
+                    <p className="text-gray-600 leading-relaxed">
+                      Once your application is approved, we pay the music store
+                      directly for your instrument.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex items-start space-x-4">
+                  <div className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center flex-shrink-0">
+                    <span className="text-xl font-bold text-white">3</span>
+                  </div>
+                  <div>
+                    <h4 className="text-xl font-semibold text-gray-900 mb-2">
+                      Pick Up Your Instrument
+                    </h4>
+                    <p className="text-gray-600 leading-relaxed">
+                      We'll send you a voucher to take to the store and pick up
+                      your brand new instrument, ready to play!
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
 
-            <div className="text-center">
-              <div className="mx-auto w-20 h-20 bg-blue-600 rounded-full flex items-center justify-center mb-6">
-                <span className="text-2xl font-bold text-white">2</span>
+            {/* Reimbursement Program */}
+            <div className="bg-white rounded-2xl p-8 shadow-lg">
+              <div className="text-center mb-8">
+                <h3 className="text-3xl font-bold text-gray-900 mb-4">
+                  Option 2: The Reimbursement Program
+                </h3>
+                <p className="text-lg text-purple-600 font-semibold">
+                  (For those who have already purchased an instrument)
+                </p>
               </div>
-              <h3 className="text-2xl font-semibold text-gray-900 mb-4">
-                Submit Your Application
-              </h3>
-              <p className="text-gray-600 leading-relaxed">
-                Fill out our simple application form with your purchase details
-                and upload your receipt.
-              </p>
-            </div>
 
-            <div className="text-center">
-              <div className="mx-auto w-20 h-20 bg-blue-600 rounded-full flex items-center justify-center mb-6">
-                <span className="text-2xl font-bold text-white">3</span>
+              <div className="space-y-6">
+                <div className="flex items-start space-x-4">
+                  <div className="w-12 h-12 bg-purple-500 rounded-full flex items-center justify-center flex-shrink-0">
+                    <span className="text-xl font-bold text-white">1</span>
+                  </div>
+                  <div>
+                    <h4 className="text-xl font-semibold text-gray-900 mb-2">
+                      Purchase Your Instrument
+                    </h4>
+                    <p className="text-gray-600 leading-relaxed">
+                      Buy a musical instrument for yourself or your school from
+                      any vendor and keep the itemized receipt.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex items-start space-x-4">
+                  <div className="w-12 h-12 bg-purple-500 rounded-full flex items-center justify-center flex-shrink-0">
+                    <span className="text-xl font-bold text-white">2</span>
+                  </div>
+                  <div>
+                    <h4 className="text-xl font-semibold text-gray-900 mb-2">
+                      Submit Your Application
+                    </h4>
+                    <p className="text-gray-600 leading-relaxed">
+                      Fill out our simple application form with your purchase
+                      details and upload your receipt.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex items-start space-x-4">
+                  <div className="w-12 h-12 bg-purple-500 rounded-full flex items-center justify-center flex-shrink-0">
+                    <span className="text-xl font-bold text-white">3</span>
+                  </div>
+                  <div>
+                    <h4 className="text-xl font-semibold text-gray-900 mb-2">
+                      Receive Reimbursement
+                    </h4>
+                    <p className="text-gray-600 leading-relaxed">
+                      Once approved, we'll process your reimbursement and send
+                      the funds directly to you.
+                    </p>
+                  </div>
+                </div>
               </div>
-              <h3 className="text-2xl font-semibold text-gray-900 mb-4">
-                Receive Reimbursement
-              </h3>
-              <p className="text-gray-600 leading-relaxed">
-                Once approved, we'll process your reimbursement and send the
-                funds directly to you.
-              </p>
             </div>
           </div>
         </div>
@@ -298,10 +378,10 @@ export default function Home() {
               music, regardless of their family's financial situation.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              By reimbursing families and schools for musical instrument
-              purchases, we're not just supporting individual students – we're
-              investing in the future of music education and strengthening our
-              communities through the power of music.
+              Through our Direct Funding and Reimbursement programs, we're not
+              just supporting individual students – we're investing in the
+              future of music education and strengthening our communities
+              through the power of music.
             </p>
           </div>
         </div>
@@ -314,22 +394,22 @@ export default function Home() {
             Ready to Get Started?
           </h2>
           <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-            Have questions about our reimbursement program? Want to apply for
-            funding? We're here to help you on your musical journey.
+            Have questions about our programs? Want to apply for funding or
+            reimbursement? We're here to help you on your musical journey.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button
               size="lg"
               className="bg-blue-600 hover:bg-blue-700 text-lg px-8 py-6 font-bold"
             >
-              Apply Now
+              Get Upfront Funding
             </Button>
             <Button
               size="lg"
               variant="outline"
-              className="text-lg px-8 py-6 font-bold text-black outline-black"
+              className="text-lg px-8 py-6 font-bold border-blue-600 text-blue-600 hover:bg-blue-50"
             >
-              Contact Us
+              Apply for Reimbursement
             </Button>
           </div>
         </div>
