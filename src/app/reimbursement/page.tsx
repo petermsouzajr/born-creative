@@ -27,7 +27,6 @@ export default function ReimbursementPage() {
             <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
               Get Reimbursed for Your
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-600">
-                {' '}
                 Instrument Purchase
               </span>
             </h1>
@@ -217,8 +216,8 @@ export default function ReimbursementPage() {
                           Proof of Identity
                         </p>
                         <p className="text-sm text-gray-600">
-                          Valid photo ID (driver's license, passport, or state
-                          ID)
+                          Valid photo ID (driver&apos;s license, passport, or
+                          state ID)
                         </p>
                       </div>
                     </div>
