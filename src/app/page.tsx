@@ -30,33 +30,42 @@ export default function Home() {
             </div>
             <div className="hidden md:flex items-center space-x-8">
               <a
-                href="#about"
-                className="text-gray-600 hover:text-blue-600 transition-colors"
+                href="/about"
+                className="text-gray-600 hover:text-blue-600 transition-colors text-lg"
               >
                 About
               </a>
               <a
-                href="#benefits"
-                className="text-gray-600 hover:text-blue-600 transition-colors"
+                href="/#benefits"
+                className="text-gray-600 hover:text-blue-600 transition-colors text-lg"
               >
                 Benefits
               </a>
               <a
-                href="#how-it-works"
-                className="text-gray-600 hover:text-blue-600 transition-colors"
+                href="/#how-it-works"
+                className="text-gray-600 hover:text-blue-600 transition-colors text-lg"
               >
                 How It Works
               </a>
               <a
-                href="#contact"
-                className="text-gray-600 hover:text-blue-600 transition-colors"
+                href="/contact"
+                className="text-gray-600 hover:text-blue-600 transition-colors text-lg"
               >
                 Contact
               </a>
             </div>
-            <Button className="bg-blue-600 hover:bg-blue-700">
-              Get Funding
-            </Button>
+            <div className="flex items-center space-x-2">
+              <a href="/direct-funding">
+                <Button className="bg-blue-600 hover:bg-blue-700 text-md px-4 py-2 font-bold">
+                  Pre-imbursement
+                </Button>
+              </a>
+              <a href="/reimbursement">
+                <Button className="text-md px-4 py-2 font-bold border border-blue-600 text-blue-600 hover:bg-blue-50 hover:text-blue-600">
+                  Reimbursement
+                </Button>
+              </a>
+            </div>
           </div>
         </div>
       </nav>
@@ -79,19 +88,23 @@ export default function Home() {
               are here for you.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button
-                size="lg"
-                className="bg-blue-600 hover:bg-blue-700 text-lg px-8 py-6 font-bold"
-              >
-                Get Upfront Funding
-              </Button>
-              <Button
-                size="lg"
-                variant="outline"
-                className="text-lg px-8 py-6 font-bold border-blue-600 text-blue-600 hover:bg-blue-50"
-              >
-                Apply for Reimbursement
-              </Button>
+              <a href="/direct-funding">
+                <Button
+                  size="lg"
+                  className="bg-blue-600 hover:bg-blue-700 text-lg px-8 py-6 font-bold"
+                >
+                  Get Upfront Funding
+                </Button>
+              </a>
+              <a href="/reimbursement">
+                <Button
+                  size="lg"
+                  variant="outline"
+                  className="text-lg px-8 py-6 font-bold border-blue-600 text-blue-600 hover:bg-blue-50 hover:text-blue-600"
+                >
+                  Apply for Reimbursement
+                </Button>
+              </a>
             </div>
           </div>
         </div>
@@ -398,19 +411,23 @@ export default function Home() {
             reimbursement? We're here to help you on your musical journey.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button
-              size="lg"
-              className="bg-blue-600 hover:bg-blue-700 text-lg px-8 py-6 font-bold"
-            >
-              Get Upfront Funding
-            </Button>
-            <Button
-              size="lg"
-              variant="outline"
-              className="text-lg px-8 py-6 font-bold border-blue-600 text-blue-600 hover:bg-blue-50"
-            >
-              Apply for Reimbursement
-            </Button>
+            <a href="/direct-funding">
+              <Button
+                size="lg"
+                className="bg-blue-600 hover:bg-blue-700 text-lg px-8 py-6 font-bold"
+              >
+                Get Upfront Funding
+              </Button>
+            </a>
+            <a href="/reimbursement">
+              <Button
+                size="lg"
+                variant="outline"
+                className="text-lg px-8 py-6 font-bold border-blue-600 text-blue-600 hover:bg-blue-50 hover:text-blue-600"
+              >
+                Apply for Reimbursement
+              </Button>
+            </a>
           </div>
         </div>
       </section>
