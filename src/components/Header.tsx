@@ -1,5 +1,6 @@
 import { Button } from '@/components/ui/button';
 import { Music } from 'lucide-react';
+import Link from 'next/link';
 
 export default function Header() {
   return (
@@ -13,42 +14,42 @@ export default function Header() {
             </span>
           </div>
           <div className="hidden md:flex items-center space-x-8">
-            <a
+            <Link
               href="/about"
               className="text-gray-600 hover:text-blue-600 transition-colors text-lg"
             >
               About
-            </a>
-            <a
+            </Link>
+            <Link
               href="/#benefits"
               className="text-gray-600 hover:text-blue-600 transition-colors text-lg"
             >
               Benefits
-            </a>
-            <a
+            </Link>
+            <Link
               href="/#how-it-works"
               className="text-gray-600 hover:text-blue-600 transition-colors text-lg"
             >
               How It Works
-            </a>
-            <a
+            </Link>
+            <Link
               href="/contact"
               className="text-gray-600 hover:text-blue-600 transition-colors text-lg"
             >
               Contact
-            </a>
+            </Link>
           </div>
           <div className="flex items-center space-x-2">
-            <a href="/direct-funding">
+            <Link href="/direct-funding">
               <Button className="bg-blue-600 hover:bg-blue-700 text-md px-4 py-2 font-bold">
                 Pre-imbursement
               </Button>
-            </a>
-            <a href="/reimbursement">
+            </Link>
+            <Link href="/reimbursement">
               <Button className="text-md px-4 py-2 font-bold border border-blue-600 text-blue-600 hover:bg-blue-50 hover:text-blue-600">
                 Reimbursement
               </Button>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

@@ -6,7 +6,7 @@ import {
   CardHeader,
   CardTitle,
 } from '@/components/ui/card';
-import { Music, CheckCircle, MapPin, Globe, Phone } from 'lucide-react';
+import { Music, MapPin, Globe, Phone } from 'lucide-react';
 import Header from '@/components/Header';
 
 export default function DirectFundingPage() {
@@ -80,9 +80,9 @@ export default function DirectFundingPage() {
                   </h3>
                   <p className="text-lg text-gray-600 leading-relaxed mb-4">
                     Choose an instrument from one of our approved stores and get
-                    an official quote. You'll need the store name, instrument
-                    details, and the exact price. Make sure to get a written
-                    quote that includes all fees and taxes.
+                    an official quote. You&apos;ll need the store name,
+                    instrument details, and the exact price. Make sure to get a
+                    written quote that includes all fees and taxes.
                   </p>
                   <div className="bg-blue-50 p-4 rounded-lg">
                     <p className="text-sm text-blue-800">
@@ -107,13 +107,13 @@ export default function DirectFundingPage() {
                   </h3>
                   <p className="text-lg text-gray-600 leading-relaxed mb-4">
                     Once your application is approved (usually within 3-5
-                    business days), we'll contact the store directly and pay for
-                    your instrument. You don't need to worry about any upfront
-                    costs or payment processing.
+                    business days), we&apos;ll contact the store directly and
+                    pay for your instrument. You don&apos;t need to worry about
+                    any upfront costs or payment processing.
                   </p>
                   <div className="bg-green-50 p-4 rounded-lg">
                     <p className="text-sm text-green-800">
-                      <strong>What happens next:</strong> We'll send you an
+                      <strong>What happens next:</strong> We&apos;ll send you an
                       email confirmation and coordinate with the store to
                       prepare your instrument.
                     </p>
@@ -133,7 +133,7 @@ export default function DirectFundingPage() {
                     Pick Up Your Instrument
                   </h3>
                   <p className="text-lg text-gray-600 leading-relaxed mb-4">
-                    We'll send you a voucher to take to the store. Simply
+                    We&apos;ll send you a voucher to take to the store. Simply
                     present the voucher and your ID, and you can pick up your
                     brand new instrument, ready to play! The store will have
                     everything set up and waiting for you.
@@ -401,15 +401,15 @@ export default function DirectFundingPage() {
             </h2>
             <p className="text-xl text-gray-600 mb-8">
               Start your Direct Funding application today. The process is simple
-              and we're here to help every step of the way.
+              and we&apos;re here to help every step of the way.
             </p>
             <div className="bg-white rounded-2xl p-8 shadow-lg">
               <h3 className="text-2xl font-bold text-gray-900 mb-4">
                 Direct Funding Application Form
               </h3>
               <p className="text-gray-600 mb-6">
-                Fill out the form below to begin your application. We'll review
-                it and get back to you within 3-5 business days.
+                Fill out the form below to begin your application. We&apos;ll
+                review it and get back to you within 3-5 business days.
               </p>
               <Button
                 size="lg"

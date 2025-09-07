@@ -11,7 +11,6 @@ import {
   CheckCircle,
   XCircle,
   FileText,
-  Upload,
   DollarSign,
 } from 'lucide-react';
 import Header from '@/components/Header';
@@ -34,7 +33,7 @@ export default function ReimbursementPage() {
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 mb-8 leading-relaxed">
               This program is for families and schools who have already
-              purchased an instrument and are seeking reimbursement. We'll
+              purchased an instrument and are seeking reimbursement. We&apos;ll
               process your application and send the funds directly to you.
             </p>
           </div>
@@ -92,8 +91,9 @@ export default function ReimbursementPage() {
                   </p>
                   <div className="bg-purple-50 p-4 rounded-lg">
                     <p className="text-sm text-purple-800">
-                      <strong>Important:</strong> Keep your receipt safe! You'll
-                      need to upload a clear photo of it with your application.
+                      <strong>Important:</strong> Keep your receipt safe!
+                      You&apos;ll need to upload a clear photo of it with your
+                      application.
                     </p>
                   </div>
                 </div>
@@ -138,10 +138,10 @@ export default function ReimbursementPage() {
                     Receive Reimbursement
                   </h3>
                   <p className="text-lg text-gray-600 leading-relaxed mb-4">
-                    Once approved, we'll process your reimbursement and send the
-                    funds directly to you via check or direct deposit. You'll
-                    receive the full amount you paid for the instrument (up to
-                    our program limits).
+                    Once approved, we&apos;ll process your reimbursement and
+                    send the funds directly to you via check or direct deposit.
+                    You&apos;ll receive the full amount you paid for the
+                    instrument (up to our program limits).
                   </p>
                   <div className="bg-green-50 p-4 rounded-lg">
                     <p className="text-sm text-green-800">
@@ -243,10 +243,10 @@ export default function ReimbursementPage() {
                 <CardHeader>
                   <CardTitle className="text-2xl text-gray-900 flex items-center">
                     <XCircle className="h-6 w-6 text-red-600 mr-3" />
-                    What We Don't Accept
+                    What We Don&apos;t Accept
                   </CardTitle>
                   <CardDescription>
-                    These documents won't be accepted for reimbursement
+                    These documents won&apos;t be accepted for reimbursement
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
@@ -412,7 +412,8 @@ export default function ReimbursementPage() {
               </h3>
               <p className="text-gray-600 mb-6">
                 Fill out the form below to begin your reimbursement application.
-                We'll review it and get back to you within 3-5 business days.
+                We&apos;ll review it and get back to you within 3-5 business
+                days.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button

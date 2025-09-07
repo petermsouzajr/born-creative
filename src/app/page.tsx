@@ -34,9 +34,9 @@ export default function Home() {
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 mb-8 leading-relaxed">
               We help people and schools get musical instruments through our
-              'Pre-imbursement' and Reimbursement programs. Whether you need
-              help with a recent purchase or can't afford the upfront cost, we
-              are here for you.
+              &apos;Pre-imbursement&apos; and Reimbursement programs. Whether
+              you need help with a recent purchase or can&apos;t afford the
+              upfront cost, we are here for you.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="/direct-funding">
@@ -127,8 +127,8 @@ export default function Home() {
               <CardContent>
                 <CardDescription className="text-gray-600 text-base leading-relaxed">
                   Schools can expand their music programs with confidence,
-                  knowing they'll receive reimbursement for instrument purchases
-                  that benefit their entire student body.
+                  knowing they&apos;ll receive reimbursement for instrument
+                  purchases that benefit their entire student body.
                 </CardDescription>
               </CardContent>
             </Card>
@@ -183,7 +183,7 @@ export default function Home() {
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-gray-600 text-base leading-relaxed">
-                  Every reimbursement is an investment in our community's
+                  Every reimbursement is an investment in our community&apos;s
                   future, creating opportunities for cultural enrichment and
                   artistic expression for all.
                 </CardDescription>
@@ -202,7 +202,7 @@ export default function Home() {
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               We offer two ways to support your musical journey. Choose the one
-              that's right for you.
+              that&apos;s right for you.
             </p>
           </div>
 
@@ -258,8 +258,8 @@ export default function Home() {
                       Pick Up Your Instrument
                     </h4>
                     <p className="text-gray-600 leading-relaxed">
-                      We'll send you a voucher to take to the store and pick up
-                      your brand new instrument, ready to play!
+                      We&apos;ll send you a voucher to take to the store and
+                      pick up your brand new instrument, ready to play!
                     </p>
                   </div>
                 </div>
@@ -317,8 +317,8 @@ export default function Home() {
                       Receive Reimbursement
                     </h4>
                     <p className="text-gray-600 leading-relaxed">
-                      Once approved, we'll process your reimbursement and send
-                      the funds directly to you.
+                      Once approved, we&apos;ll process your reimbursement and
+                      send the funds directly to you.
                     </p>
                   </div>
                 </div>
@@ -339,12 +339,12 @@ export default function Home() {
               Born Creative is a charitable organization dedicated to making
               music education accessible to everyone. We believe that every
               student should have the opportunity to learn and grow through
-              music, regardless of their family's financial situation.
+              music, regardless of their family&apos;s financial situation.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Through our Direct Funding and Reimbursement programs, we're not
-              just supporting individual students – we're investing in the
-              future of music education and strengthening our communities
+              Through our Direct Funding and Reimbursement programs, we&apos;re
+              not just supporting individual students – we&apos;re investing in
+              the future of music education and strengthening our communities
               through the power of music.
             </p>
           </div>
@@ -359,7 +359,7 @@ export default function Home() {
           </h2>
           <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
             Have questions about our programs? Want to apply for funding or
-            reimbursement? We're here to help you on your musical journey.
+            reimbursement? We&apos;re here to help you on your musical journey.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="/direct-funding">

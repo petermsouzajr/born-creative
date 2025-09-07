@@ -27,7 +27,7 @@ export default function AboutPage() {
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 mb-8 leading-relaxed">
               We believe every student should have the opportunity to learn and
-              grow through music, regardless of their family's financial
+              grow through music, regardless of their family&apos;s financial
               situation.
             </p>
           </div>
@@ -48,10 +48,10 @@ export default function AboutPage() {
               <p className="text-xl mb-6">
                 Born Creative was founded in 2020 with a simple yet powerful
                 vision: to make music education accessible to every student,
-                regardless of their family's financial situation. Our founders,
-                a group of music educators and community leaders, witnessed
-                firsthand how financial barriers were preventing talented
-                students from pursuing their musical dreams.
+                regardless of their family&apos;s financial situation. Our
+                founders, a group of music educators and community leaders,
+                witnessed firsthand how financial barriers were preventing
+                talented students from pursuing their musical dreams.
               </p>
 
               <p className="text-lg mb-6">
@@ -65,19 +65,19 @@ export default function AboutPage() {
 
               <p className="text-lg mb-6">
                 Today, Born Creative has grown into a comprehensive program that
-                serves hundreds of families and schools across the region. We've
-                developed two distinct pathways – our Direct Funding Program for
-                those who need upfront assistance, and our Reimbursement Program
-                for those who have already made the investment in music
-                education.
+                serves hundreds of families and schools across the region.
+                We&apos;ve developed two distinct pathways – our Direct Funding
+                Program for those who need upfront assistance, and our
+                Reimbursement Program for those who have already made the
+                investment in music education.
               </p>
 
               <p className="text-lg">
-                Our mission extends beyond just providing instruments. We're
-                building a community where music education is valued, supported,
-                and accessible to all. Every instrument we help provide
-                represents not just a tool for learning, but a gateway to
-                creativity, confidence, and lifelong joy.
+                Our mission extends beyond just providing instruments.
+                We&apos;re building a community where music education is valued,
+                supported, and accessible to all. Every instrument we help
+                provide represents not just a tool for learning, but a gateway
+                to creativity, confidence, and lifelong joy.
               </p>
             </div>
           </div>
@@ -128,9 +128,10 @@ export default function AboutPage() {
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-gray-600 text-base leading-relaxed">
-                  We approach every family's situation with empathy and
-                  understanding, recognizing that financial challenges shouldn't
-                  limit a child's potential for musical growth and expression.
+                  We approach every family&apos;s situation with empathy and
+                  understanding, recognizing that financial challenges
+                  shouldn&apos;t limit a child&apos;s potential for musical
+                  growth and expression.
                 </CardDescription>
               </CardContent>
             </Card>
@@ -216,8 +217,8 @@ export default function AboutPage() {
               Our Team
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Meet the dedicated individuals who make Born Creative's mission
-              possible. Our team combines expertise in music education,
+              Meet the dedicated individuals who make Born Creative&apos;s
+              mission possible. Our team combines expertise in music education,
               nonprofit management, and community outreach.
             </p>
           </div>
@@ -237,8 +238,8 @@ export default function AboutPage() {
                 <CardDescription className="text-gray-600 text-sm leading-relaxed">
                   Sarah brings 15 years of experience in nonprofit management
                   and music education. She founded Born Creative after seeing
-                  the impact of music education in her own children's lives and
-                  wanting to make it accessible to all families.
+                  the impact of music education in her own children&apos;s lives
+                  and wanting to make it accessible to all families.
                 </CardDescription>
               </CardContent>
             </Card>
@@ -386,9 +387,9 @@ export default function AboutPage() {
               Join Our Mission
             </h2>
             <p className="text-xl text-gray-600 mb-8">
-              Whether you're a family in need of support, a school looking to
-              expand your music program, or someone who wants to help make music
-              education accessible to all, we invite you to be part of our
+              Whether you&apos;re a family in need of support, a school looking
+              to expand your music program, or someone who wants to help make
+              music education accessible to all, we invite you to be part of our
               community.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

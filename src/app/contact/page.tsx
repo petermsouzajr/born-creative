@@ -6,15 +6,7 @@ import {
   CardHeader,
   CardTitle,
 } from '@/components/ui/card';
-import {
-  Music,
-  Mail,
-  Phone,
-  MapPin,
-  Clock,
-  MessageCircle,
-  HelpCircle,
-} from 'lucide-react';
+import { Music, Mail, Phone, MapPin, Clock, HelpCircle } from 'lucide-react';
 import Header from '@/components/Header';
 
 export default function ContactPage() {
@@ -35,7 +27,7 @@ export default function ContactPage() {
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 mb-8 leading-relaxed">
               Have questions about our programs? Need help with your
-              application? We're here to help you on your musical journey.
+              application? We&apos;re here to help you on your musical journey.
             </p>
           </div>
         </div>
@@ -49,8 +41,8 @@ export default function ContactPage() {
               Contact Information
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Reach out to us through any of these channels. We're here to help
-              and typically respond within 24 hours.
+              Reach out to us through any of these channels. We&apos;re here to
+              help and typically respond within 24 hours.
             </p>
           </div>
 
@@ -64,7 +56,8 @@ export default function ContactPage() {
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-gray-600 mb-4">
-                  Send us an email and we'll get back to you within 24 hours
+                  Send us an email and we&apos;ll get back to you within 24
+                  hours
                 </CardDescription>
                 <a
                   href="mailto:info@borncreative.org"
@@ -149,8 +142,8 @@ export default function ContactPage() {
                 Send Us a Message
               </h2>
               <p className="text-xl text-gray-600">
-                Fill out the form below and we'll get back to you as soon as
-                possible.
+                Fill out the form below and we&apos;ll get back to you as soon
+                as possible.
               </p>
             </div>
 
@@ -160,7 +153,7 @@ export default function ContactPage() {
                   Contact Form
                 </CardTitle>
                 <CardDescription className="text-center">
-                  We're here to help with any questions about our programs
+                  We&apos;re here to help with any questions about our programs
                 </CardDescription>
               </CardHeader>
               <CardContent>
@@ -302,7 +295,7 @@ export default function ContactPage() {
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Here are answers to some of the most common questions we receive.
-              Don't see your question? Contact us directly!
+              Don&apos;t see your question? Contact us directly!
             </p>
           </div>
 
@@ -312,7 +305,7 @@ export default function ContactPage() {
                 <CardHeader>
                   <CardTitle className="text-xl text-gray-900 flex items-center">
                     <HelpCircle className="h-5 w-5 text-blue-600 mr-3" />
-                    What's the difference between Direct Funding and
+                    What&apos;s the difference between Direct Funding and
                     Reimbursement?
                   </CardTitle>
                 </CardHeader>
@@ -355,11 +348,11 @@ export default function ContactPage() {
                 </CardHeader>
                 <CardContent>
                   <CardDescription className="text-gray-600 leading-relaxed">
-                    We don't have strict income requirements, but we prioritize
-                    families who demonstrate financial need. We consider various
-                    factors including family size, expenses, and circumstances.
-                    Our goal is to help families who genuinely need assistance
-                    to access music education.
+                    We don&apos;t have strict income requirements, but we
+                    prioritize families who demonstrate financial need. We
+                    consider various factors including family size, expenses,
+                    and circumstances. Our goal is to help families who
+                    genuinely need assistance to access music education.
                   </CardDescription>
                 </CardContent>
               </Card>
@@ -395,8 +388,8 @@ export default function ContactPage() {
                     woodwinds, brass, percussion, keyboards, and guitars. We
                     also cover essential accessories like cases, stands, and
                     maintenance supplies. The instrument must be for educational
-                    purposes and appropriate for the student's age and skill
-                    level.
+                    purposes and appropriate for the student&apos;s age and
+                    skill level.
                   </CardDescription>
                 </CardContent>
               </Card>
@@ -405,7 +398,7 @@ export default function ContactPage() {
                 <CardHeader>
                   <CardTitle className="text-xl text-gray-900 flex items-center">
                     <HelpCircle className="h-5 w-5 text-blue-600 mr-3" />
-                    How can I support Born Creative's mission?
+                    How can I support Born Creative&apos;s mission?
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
