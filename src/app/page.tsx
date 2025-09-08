@@ -328,6 +328,98 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Power Our Mission Section */}
+      <section id="donate-cta" className="py-20 px-4 bg-white">
+        <div className="container mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+              Power Our Mission
+            </h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Your contribution directly funds a young musician's dream right
+              here in your community. Every donation stays local.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto">
+            {/* Donate Funds Card */}
+            <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow text-center">
+              <CardHeader>
+                <div className="mx-auto w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-4">
+                  <DollarSign className="h-8 w-8 text-green-600" />
+                </div>
+                <CardTitle className="text-2xl text-gray-900">
+                  Donate Funds
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <CardDescription className="text-gray-600 text-base leading-relaxed mb-6">
+                  Your financial gift helps us purchase new instruments for
+                  students within 50 miles of your zip code.
+                </CardDescription>
+                <a href="/donate">
+                  <Button className="bg-green-600 hover:bg-green-700 font-bold">
+                    Give Today
+                  </Button>
+                </a>
+              </CardContent>
+            </Card>
+
+            {/* Donate an Instrument Card */}
+            <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow text-center">
+              <CardHeader>
+                <div className="mx-auto w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-4">
+                  <Music className="h-8 w-8 text-blue-600" />
+                </div>
+                <CardTitle className="text-2xl text-gray-900">
+                  Donate an Instrument
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <CardDescription className="text-gray-600 text-base leading-relaxed mb-6">
+                  Have a gently-used instrument you'd like to donate? We'll find
+                  it a new home with a student in need.
+                </CardDescription>
+                <a href="/contact">
+                  <Button
+                    variant="outline"
+                    className="font-bold border-blue-600 text-blue-600 hover:bg-blue-50"
+                  >
+                    Learn More
+                  </Button>
+                </a>
+              </CardContent>
+            </Card>
+
+            {/* Volunteer Card */}
+            <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow text-center">
+              <CardHeader>
+                <div className="mx-auto w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mb-4">
+                  <Users className="h-8 w-8 text-purple-600" />
+                </div>
+                <CardTitle className="text-2xl text-gray-900">
+                  Volunteer
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <CardDescription className="text-gray-600 text-base leading-relaxed mb-6">
+                  Lend your time and talent to help with events, application
+                  reviews, or community outreach.
+                </CardDescription>
+                <a href="/contact">
+                  <Button
+                    variant="outline"
+                    className="font-bold border-purple-600 text-purple-600 hover:bg-purple-50"
+                  >
+                    Get Involved
+                  </Button>
+                </a>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
       {/* About Section */}
       <section id="about" className="py-20 px-4 bg-white">
         <div className="container mx-auto">

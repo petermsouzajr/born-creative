@@ -228,23 +228,18 @@ export default function AboutPage() {
               <CardHeader className="text-center">
                 <div className="mx-auto w-24 h-24 bg-gray-200 rounded-full mb-4"></div>
                 <CardTitle className="text-xl text-gray-900">
-                  Sarah Johnson
+                  Peter Souza
                 </CardTitle>
                 <CardDescription className="text-blue-600 font-semibold">
-                  Executive Director
+                  Founder
                 </CardDescription>
               </CardHeader>
               <CardContent>
-                <CardDescription className="text-gray-600 text-sm leading-relaxed">
-                  Sarah brings 15 years of experience in nonprofit management
-                  and music education. She founded Born Creative after seeing
-                  the impact of music education in her own children&apos;s lives
-                  and wanting to make it accessible to all families.
-                </CardDescription>
+                <CardDescription className="text-gray-600 text-sm leading-relaxed"></CardDescription>
               </CardContent>
             </Card>
 
-            <Card className="border-0 shadow-lg">
+            {/* <Card className="border-0 shadow-lg">
               <CardHeader className="text-center">
                 <div className="mx-auto w-24 h-24 bg-gray-200 rounded-full mb-4"></div>
                 <CardTitle className="text-xl text-gray-900">
@@ -338,13 +333,13 @@ export default function AboutPage() {
                   community.
                 </CardDescription>
               </CardContent>
-            </Card>
+            </Card> */}
           </div>
         </div>
       </section>
 
       {/* Impact Section */}
-      <section className="py-20 px-4 bg-gray-50">
+      {/* <section className="py-20 px-4 bg-gray-50">
         <div className="container mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
@@ -377,7 +372,7 @@ export default function AboutPage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Call to Action */}
       <section className="py-20 px-4 bg-white">
@@ -399,6 +394,14 @@ export default function AboutPage() {
               >
                 Apply for Funding
               </Button>
+              <a href="/donate">
+                <Button
+                  size="lg"
+                  className="bg-green-600 hover:bg-green-700 text-lg px-8 py-6 font-bold"
+                >
+                  Donate to Our Mission
+                </Button>
+              </a>
               <Button
                 size="lg"
                 variant="outline"

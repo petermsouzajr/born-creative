@@ -38,6 +38,11 @@ export default function Header() {
             >
               Contact
             </Link>
+            <Link href="/donate">
+              <Button className="bg-purple-600 hover:bg-purple-700 text-md px-4 py-2 font-bold">
+                Donate
+              </Button>
+            </Link>
           </div>
           <div className="flex items-center space-x-2">
             <Link href="/direct-funding">
