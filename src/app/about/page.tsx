@@ -26,9 +26,9 @@ export default function AboutPage() {
               </span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 mb-8 leading-relaxed">
-              We believe every student should have the opportunity to learn and
-              grow through music, regardless of their family&apos;s financial
-              situation.
+              With community support, every student can have the opportunity to
+              learn and grow through music, regardless of their family&apos;s
+              financial situation.
             </p>
           </div>
         </div>
@@ -67,9 +67,9 @@ export default function AboutPage() {
                 Today, Born Creative has grown into a comprehensive program that
                 serves hundreds of families and schools across the region.
                 We&apos;ve developed two distinct pathways – our Direct Funding
-                Program for those who need upfront assistance, and our
-                Reimbursement Program for those who have already made the
-                investment in music education.
+                Program (Pre-imbursement) for those who need upfront assistance,
+                and our Reimbursement Program for those who have already made
+                the investment in music education.
               </p>
 
               <p className="text-lg">
@@ -130,7 +130,7 @@ export default function AboutPage() {
                 <CardDescription className="text-gray-600 text-base leading-relaxed">
                   We approach every family&apos;s situation with empathy and
                   understanding, recognizing that financial challenges
-                  shouldn&apos;t limit a child&apos;s potential for musical
+                  shouldn&apos;t limit someone&apos;s potential for musical
                   growth and expression.
                 </CardDescription>
               </CardContent>
@@ -166,7 +166,7 @@ export default function AboutPage() {
               <CardContent>
                 <CardDescription className="text-gray-600 text-base leading-relaxed">
                   We maintain the highest standards in our programs, ensuring
-                  that every family receives quality support and every
+                  that every person receives quality support and every
                   instrument meets educational standards.
                 </CardDescription>
               </CardContent>
@@ -424,7 +424,7 @@ export default function AboutPage() {
                 Making music education accessible to all
               </p>
               <p className="text-sm text-gray-500">
-                © 2024 Born Creative. All rights reserved.
+                © 2025 Born Creative. All rights reserved.
               </p>
             </div>
           </div>

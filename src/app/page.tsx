@@ -396,7 +396,7 @@ export default function Home() {
                 Making music education accessible to all
               </p>
               <p className="text-sm text-gray-500">
-                © 2024 Born Creative. All rights reserved.
+                © 2025 Born Creative. All rights reserved.
               </p>
             </div>
           </div>

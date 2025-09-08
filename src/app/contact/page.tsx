@@ -305,8 +305,8 @@ export default function ContactPage() {
                 <CardHeader>
                   <CardTitle className="text-xl text-gray-900 flex items-center">
                     <HelpCircle className="h-5 w-5 text-blue-600 mr-3" />
-                    What&apos;s the difference between Direct Funding and
-                    Reimbursement?
+                    What&apos;s the difference between Direct Funding
+                    (Pre-imbursement) and Reimbursement?
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
@@ -429,7 +429,7 @@ export default function ContactPage() {
                 Making music education accessible to all
               </p>
               <p className="text-sm text-gray-500">
-                © 2024 Born Creative. All rights reserved.
+                © 2025 Born Creative. All rights reserved.
               </p>
             </div>
           </div>
