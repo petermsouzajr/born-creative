@@ -60,15 +60,15 @@ export default function ContactPage() {
                   hours
                 </CardDescription>
                 <a
-                  href="mailto:info@borncreative.org"
+                  href="mailto:petermsouzajr@gmail.com"
                   className="text-blue-600 hover:underline font-semibold"
                 >
-                  info@borncreative.org
+                  petermsouzajr@gmail.com
                 </a>
               </CardContent>
             </Card>
 
-            <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow text-center">
+            {/* <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow text-center">
               <CardHeader>
                 <div className="mx-auto w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-4">
                   <Phone className="h-8 w-8 text-green-600" />
@@ -86,9 +86,9 @@ export default function ContactPage() {
                   (555) 123-4567
                 </a>
               </CardContent>
-            </Card>
+            </Card> */}
 
-            <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow text-center">
+            {/* <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow text-center">
               <CardHeader>
                 <div className="mx-auto w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mb-4">
                   <MapPin className="h-8 w-8 text-purple-600" />
@@ -107,7 +107,7 @@ export default function ContactPage() {
                   Harmony City, HC 12345
                 </div>
               </CardContent>
-            </Card>
+            </Card> */}
 
             <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow text-center">
               <CardHeader>
@@ -134,7 +134,7 @@ export default function ContactPage() {
       </section>
 
       {/* Contact Form Section */}
-      <section className="py-20 px-4 bg-gray-50">
+      {/* <section className="py-20 px-4 bg-gray-50">
         <div className="container mx-auto">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-16">
@@ -284,7 +284,7 @@ export default function ContactPage() {
             </Card>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* FAQ Section */}
       <section className="py-20 px-4 bg-white">
