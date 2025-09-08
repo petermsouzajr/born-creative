@@ -336,8 +336,8 @@ export default function Home() {
               Power Our Mission
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Your contribution directly funds a young musician's dream right
-              here in your community. Every donation stays local.
+              Your contribution directly funds a young musician&apos;s dream
+              right here in your community. Every donation stays local.
             </p>
           </div>
 
@@ -377,8 +377,8 @@ export default function Home() {
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-gray-600 text-base leading-relaxed mb-6">
-                  Have a gently-used instrument you'd like to donate? We'll find
-                  it a new home with a student in need.
+                  Have a gently-used instrument you&apos;d like to donate?
+                  We&apos;ll find it a new home with a student in need.
                 </CardDescription>
                 <a href="/contact">
                   <Button
